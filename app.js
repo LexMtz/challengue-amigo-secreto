@@ -9,5 +9,6 @@ function agregarAmigo() {
         alert("Por Favor Inserte Un Nombre");
     } else {
         amigos.push(amigo);
+        document.getElementById("amigo").value = "";
     }
 }
